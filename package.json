@@ -1,0 +1,52 @@
+{
+  "name": "kaffelogic-klog",
+  "version": "0.1.0",
+  "description": "Unofficial browser-safe parser for Kaffelogic .klog roast logs",
+  "type": "module",
+  "license": "MIT",
+  "author": "Florian Strauf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstrauf/kaffelogic-klog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fstrauf/kaffelogic-klog/issues"
+  },
+  "homepage": "https://github.com/fstrauf/kaffelogic-klog#readme",
+  "keywords": [
+    "kaffelogic",
+    "klog",
+    "coffee",
+    "roast",
+    "parser"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "kaffelogic-klog": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "FORMAT.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}
