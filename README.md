@@ -32,7 +32,7 @@ npx kaffelogic-klog roast.klog --json
 
 ## Example: Kenya Gatugi Peaberry
 
-Public summary of winning batch **R-087** (from BrewedLate roast-case-study JSON). The full narrative lives at [`/roast-logs/kenya-gatugi-peaberry`](/roast-logs/kenya-gatugi-peaberry).
+Public summary of winning batch **R-087** (from BrewedLate roast-case-study JSON). The full narrative lives at [brewedlate.com/roast-logs/kenya-gatugi-peaberry](https://brewedlate.com/roast-logs/kenya-gatugi-peaberry).
 
 | Batch | DTR | Avg RoR pre-FC | Avg RoR development | Loss* |
 |-------|-----|----------------|---------------------|-------|
